@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "googletest-master",
+		"source" : "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master"
+	}
+}
