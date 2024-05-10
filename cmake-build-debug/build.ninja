@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: vehicles_2
+# Project: vehicles_3
 # Configurations: Debug
 # =============================================================================
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target vehicles_2
 
@@ -49,24 +49,24 @@ cmake_ninja_workdir = C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig
 
 build cmake_object_order_depends_target_vehicles_2: phony || CMakeFiles/vehicles_2.dir
 
-build CMakeFiles/vehicles_2.dir/src/vehicles.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/src/vehicles.cpp || cmake_object_order_depends_target_vehicles_2
+build CMakeFiles/vehicles_2.dir/src/vehicles.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/src/vehicles.cpp || cmake_object_order_depends_target_vehicles_2
   DEP_FILE = CMakeFiles\vehicles_2.dir\src\vehicles.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include"
   OBJECT_DIR = CMakeFiles\vehicles_2.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2.dir\src
 
-build CMakeFiles/vehicles_2.dir/test/main_gtest.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/test/main_gtest.cpp || cmake_object_order_depends_target_vehicles_2
+build CMakeFiles/vehicles_2.dir/test/main_gtest.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/test/main_gtest.cpp || cmake_object_order_depends_target_vehicles_2
   DEP_FILE = CMakeFiles\vehicles_2.dir\test\main_gtest.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include"
   OBJECT_DIR = CMakeFiles\vehicles_2.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2.dir\test
 
-build CMakeFiles/vehicles_2.dir/main.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/main.cpp || cmake_object_order_depends_target_vehicles_2
+build CMakeFiles/vehicles_2.dir/main.cpp.obj: CXX_COMPILER__vehicles_2_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/main.cpp || cmake_object_order_depends_target_vehicles_2
   DEP_FILE = CMakeFiles\vehicles_2.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include"
   OBJECT_DIR = CMakeFiles\vehicles_2.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2.dir
 
@@ -97,24 +97,24 @@ build vehicles_2.exe: CXX_EXECUTABLE_LINKER__vehicles_2_Debug CMakeFiles/vehicle
 
 build cmake_object_order_depends_target_vehicles_2__test: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
 
-build CMakeFiles/vehicles_2__test.dir/src/vehicles.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/src/vehicles.cpp || cmake_object_order_depends_target_vehicles_2__test
+build CMakeFiles/vehicles_2__test.dir/src/vehicles.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/src/vehicles.cpp || cmake_object_order_depends_target_vehicles_2__test
   DEP_FILE = CMakeFiles\vehicles_2__test.dir\src\vehicles.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = CMakeFiles\vehicles_2__test.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2__test.dir\src
 
-build CMakeFiles/vehicles_2__test.dir/test/main_gtest.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/test/main_gtest.cpp || cmake_object_order_depends_target_vehicles_2__test
+build CMakeFiles/vehicles_2__test.dir/test/main_gtest.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/test/main_gtest.cpp || cmake_object_order_depends_target_vehicles_2__test
   DEP_FILE = CMakeFiles\vehicles_2__test.dir\test\main_gtest.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = CMakeFiles\vehicles_2__test.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2__test.dir\test
 
-build CMakeFiles/vehicles_2__test.dir/test/test_vehicles.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/test/test_vehicles.cpp || cmake_object_order_depends_target_vehicles_2__test
+build CMakeFiles/vehicles_2__test.dir/test/test_vehicles.cpp.obj: CXX_COMPILER__vehicles_2__test_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/test/test_vehicles.cpp || cmake_object_order_depends_target_vehicles_2__test
   DEP_FILE = CMakeFiles\vehicles_2__test.dir\test\test_vehicles.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/../../googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = CMakeFiles\vehicles_2__test.dir
   OBJECT_FILE_DIR = CMakeFiles\vehicles_2__test.dir\test
 
@@ -141,7 +141,7 @@ build vehicles_2__test.exe: CXX_EXECUTABLE_LINKER__vehicles_2__test_Debug CMakeF
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -152,7 +152,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -170,7 +170,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -182,7 +182,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -194,7 +194,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -203,7 +203,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/CMakeLists.txt
+# C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/CMakeLists.txt
 # =============================================================================
 
 
@@ -211,7 +211,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build googletest-master/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -222,7 +222,7 @@ build googletest-master/edit_cache: phony googletest-master/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build googletest-master/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -240,7 +240,7 @@ build googletest-master/list_install_components: phony
 # Utility command for install
 
 build googletest-master/CMakeFiles/install.util: CUSTOM_COMMAND googletest-master/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -252,7 +252,7 @@ build googletest-master/install: phony googletest-master/CMakeFiles/install.util
 # Utility command for install/local
 
 build googletest-master/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest-master/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -264,7 +264,7 @@ build googletest-master/install/local: phony googletest-master/CMakeFiles/instal
 # Utility command for install/strip
 
 build googletest-master/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest-master/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -288,7 +288,7 @@ build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depen
 build googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
   DEP_FILE = googletest-master\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = googletest-master\googlemock\CMakeFiles\gmock.dir
   OBJECT_FILE_DIR = googletest-master\googlemock\CMakeFiles\gmock.dir\src
 
@@ -320,7 +320,7 @@ build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_
 build googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
   DEP_FILE = googletest-master\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = googletest-master\googlemock\CMakeFiles\gmock_main.dir
   OBJECT_FILE_DIR = googletest-master\googlemock\CMakeFiles\gmock_main.dir\src
 
@@ -345,7 +345,7 @@ build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug googletes
 # Utility command for edit_cache
 
 build googletest-master/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -356,7 +356,7 @@ build googletest-master/googlemock/edit_cache: phony googletest-master/googlemoc
 # Utility command for rebuild_cache
 
 build googletest-master/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -374,7 +374,7 @@ build googletest-master/googlemock/list_install_components: phony
 # Utility command for install
 
 build googletest-master/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND googletest-master/googlemock/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -386,7 +386,7 @@ build googletest-master/googlemock/install: phony googletest-master/googlemock/C
 # Utility command for install/local
 
 build googletest-master/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest-master/googlemock/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -398,7 +398,7 @@ build googletest-master/googlemock/install/local: phony googletest-master/google
 # Utility command for install/strip
 
 build googletest-master/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest-master/googlemock/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googlemock" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -422,7 +422,7 @@ build cmake_object_order_depends_target_gtest: phony || googletest-master/google
 build googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
   DEP_FILE = googletest-master\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = googletest-master\googletest\CMakeFiles\gtest.dir
   OBJECT_FILE_DIR = googletest-master\googletest\CMakeFiles\gtest.dir\src
 
@@ -454,7 +454,7 @@ build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_
 build googletest-master/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
   DEP_FILE = googletest-master\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
   FLAGS = -g -std=c++17 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wall -Wextra -Werror -Wpedantic -pedantic-errors
-  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
+  INCLUDES = -I"C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/include" -isystem "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest"
   OBJECT_DIR = googletest-master\googletest\CMakeFiles\gtest_main.dir
   OBJECT_FILE_DIR = googletest-master\googletest\CMakeFiles\gtest_main.dir\src
 
@@ -479,7 +479,7 @@ build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug googletes
 # Utility command for edit_cache
 
 build googletest-master/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -490,7 +490,7 @@ build googletest-master/googletest/edit_cache: phony googletest-master/googletes
 # Utility command for rebuild_cache
 
 build googletest-master/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3" -B"C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -508,7 +508,7 @@ build googletest-master/googletest/list_install_components: phony
 # Utility command for install
 
 build googletest-master/googletest/CMakeFiles/install.util: CUSTOM_COMMAND googletest-master/googletest/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
@@ -520,7 +520,7 @@ build googletest-master/googletest/install: phony googletest-master/googletest/C
 # Utility command for install/local
 
 build googletest-master/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND googletest-master/googletest/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -532,7 +532,7 @@ build googletest-master/googletest/install/local: phony googletest-master/google
 # Utility command for install/strip
 
 build googletest-master/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND googletest-master/googletest/all
-  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-2\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\Iskra\Desktop\AGH pliki\infa sem 2\repos\mdig-agh-lang_cpp__exercises-288bd81c85d7\skeletons\vehicles-3\cmake-build-debug\googletest-master\googletest" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -568,28 +568,28 @@ build vehicles_2__test: phony vehicles_2__test.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug
+# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug
 
 build all: phony vehicles_2.exe vehicles_2__test.exe googletest-master/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master
+# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master
 
 build googletest-master/all: phony googletest-master/googlemock/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googlemock
+# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googlemock
 
 build googletest-master/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a googletest-master/googletest/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest
+# Folder: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest
 
 build googletest-master/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
@@ -600,14 +600,14 @@ build googletest-master/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/Config.cmake.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/internal_utils.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/Config.cmake.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/internal_utils.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/Config.cmake.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/internal_utils.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython3.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googlemock/cmake/gmock_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/CMakeLists.txt C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/Config.cmake.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/gtest_main.pc.in C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/googletest-master/googletest/cmake/internal_utils.cmake C$:/Users/Iskra/Desktop/AGH$ pliki/infa$ sem$ 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

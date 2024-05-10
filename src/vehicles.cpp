@@ -36,3 +36,22 @@ std::string to_string(std::vector<Vehicle*>::const_iterator vehicles_begin,
         oss<<to_string(**i)<<std::endl;
     return oss.str();
 }
+std::string to_string(Driver driver){
+    std::stringstream oss;
+    oss<<"<"<<driver.get_name()<<"> : [<"<<((driver.get_vehicle() != nullptr)?to_string(*driver.get_vehicle()):"no vehicle")<<">]";
+    return oss.str();
+}
+void assign_vehicle_to_driver(std::vector<std::unique_ptr<Vehicle>>& vehicles, Driver& owner){
+    if(vehicles.empty()) {
+        owner.assign_vehicle(nullptr);
+    }else{
+        owner.assign_vehicle(std::move(vehicles.back()));
+        vehicles.pop_back();
+    }
+}
+
+Driver &Driver::operator=(Driver &&d) {
+    name_ = std::move(d.name_);
+    vehicle_ptr_ = std::move(d.vehicle_ptr_);
+    return *this;
+}

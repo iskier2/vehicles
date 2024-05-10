@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/vehicles_1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/vehicles_2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -41,7 +41,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake"
-         "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+         "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -54,16 +54,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/CMakeFiles/Export/0c08b8e77dd885bfe55a19a9659d9fc1/GTestTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES
-    "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/generated/GTestConfigVersion.cmake"
-    "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/generated/GTestConfig.cmake"
+    "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/generated/GTestConfigVersion.cmake"
+    "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/generated/GTestConfig.cmake"
     )
 endif()
 
@@ -72,18 +72,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/lib/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/lib/libgtest.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/lib/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/lib/libgtest_main.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/generated/gtest.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/generated/gtest.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gtest" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/googletest/generated/gtest_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/googletest/generated/gtest_main.pc")
 endif()
 

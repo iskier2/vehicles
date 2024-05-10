@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2
+# Install script for directory: C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/vehicles_1")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/vehicles_2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/googletest-master/cmake_install.cmake")
+  include("C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/googletest-master/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Iskra/Desktop/AGH pliki/infa sem 2/repos/mdig-agh-lang_cpp__exercises-288bd81c85d7/skeletons/vehicles-3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

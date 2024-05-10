@@ -46,3 +46,12 @@ TEST(VehiclesAlgorithms, filter){
     EXPECT_EQ(res[1]->get_id(), vehicles[2]->get_id());
     std::cout<<to_string(vehicles.begin(), vehicles.end());
 }
+TEST(DriverAuxTest, assignVehicleToDriver) {
+    std::vector<std::unique_ptr<Vehicle>> vehicles;
+    vehicles.push_back(std::make_unique<Car>("KMY420", "Honda", 50));
+    vehicles.push_back(std::make_unique<Bicycle>("1234", "cross", 10));
+    Driver d("a", HELIKOPTER_BOJOWY);
+    assign_vehicle_to_driver(vehicles, d);
+    EXPECT_EQ(vehicles.size(), 1);
+    EXPECT_EQ(d.get_vehicle()->get_id(), "1234");
+}

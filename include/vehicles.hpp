@@ -10,7 +10,8 @@
 #include <vector>
 #include <functional>
 #include <cstdint>
-
+#include <memory>
+enum genders{MELE, FAMELE, HELIKOPTER_BOJOWY};
 class Vehicle{
 public:
     Vehicle(std::string id, std::string brand) : vin_(vin_counter_++), id_(std::move(id)), brand_(std::move(brand)){};
@@ -55,6 +56,27 @@ std::string compute_min_travel_duration_as_string(const double& distance, const 
 std::vector<Vehicle*> filter_vehicles(
         std::vector<Vehicle*>::const_iterator vehicles_begin,
         std::vector<Vehicle*>::const_iterator vehicles_end,
-        std::function<bool (const Vehicle&)> predicate);
+        std::function<bool (const Vehicle&)> predicate
+        );
+class Driver{
+public:
+    Driver(Driver&) = delete;
+    Driver(Driver&&d):name_(std::move(d.name_)), vehicle_ptr_(std::move(d.vehicle_ptr_)), gender_(d.gender_){};
+    Driver(const std::string& name, genders gender):name_(name), vehicle_ptr_(nullptr), gender_(gender){};
+    Driver(const std::string& name, std::unique_ptr<Vehicle> vehicle_ptr, genders gender):name_(name), vehicle_ptr_(std::move(vehicle_ptr)), gender_(gender){};
+    Driver& operator=(Driver&) = delete;
+    Driver& operator=(Driver&& d);
+    void assign_vehicle(std::unique_ptr<Vehicle> vehicle_ptr){vehicle_ptr_ = std::move(vehicle_ptr);};
+    std::string get_name() const {return name_;};
+    Vehicle* get_vehicle() const {return vehicle_ptr_.get();};
+    genders get_gender() const {return gender_;};
+private:
+    std::string name_;
+    std::unique_ptr<Vehicle> vehicle_ptr_;
+    genders gender_;
+};
 
+std::string to_string(Driver driver);
+
+void assign_vehicle_to_driver(std::vector<std::unique_ptr<Vehicle>>& vehicles, Driver& owner);
 #endif //VEHICLES_1_VEHICLES_HPP
